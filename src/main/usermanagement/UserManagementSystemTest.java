@@ -48,6 +48,6 @@ class UserManagementSystemTest {
         assertTrue(ums.authenticate("adminuser", "adminpass"),
                 "Authentication should succeed for adminuser with correct password.");
         ums.displayUserPrivileges();
-        // You might want to capture the output and verify it matches expected privileges for an admin.
+
     }
 }
